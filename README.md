@@ -1,3 +1,14 @@
-# React-Static - Basic Template
+### To Setup
 
-To use this template, run `react-static create` and use the `basic` template.
+execute `npm install`
+
+### To Run
+
+execute `npm run start`
+
+### Current Features
+Main function is located in file `src/pages/index.js`
+
+- [x] List Users with [https://randomuser.me](https://randomuser.me) api
+- [x] Pagination
+- [x] Redux + React Hook
