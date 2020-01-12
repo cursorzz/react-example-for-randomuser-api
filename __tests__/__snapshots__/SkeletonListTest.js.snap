@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<tr
+  className="MuiTableRow-root"
+>
+  <th
+    aria-sort={null}
+    className="MuiTableCell-root makeStyles-root-1"
+    scope="row"
+  >
+    <div
+      className="MuiSkeleton-root MuiSkeleton-circle MuiSkeleton-pulse"
+      style={
+        Object {
+          "height": 40,
+          "width": 40,
+        }
+      }
+    />
+    <div
+      className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+      style={
+        Object {
+          "height": 40,
+          "width": "50%",
+        }
+      }
+    />
+  </th>
+  <th
+    aria-sort={null}
+    className="MuiTableCell-root"
+    scope="row"
+  >
+    <div
+      className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+      style={
+        Object {
+          "height": 40,
+          "width": undefined,
+        }
+      }
+    />
+  </th>
+  <th
+    aria-sort={null}
+    className="MuiTableCell-root"
+    scope="row"
+  >
+    <div
+      className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+      style={
+        Object {
+          "height": 40,
+          "width": undefined,
+        }
+      }
+    />
+  </th>
+  <th
+    aria-sort={null}
+    className="MuiTableCell-root"
+    scope="row"
+  >
+    <div
+      className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+      style={
+        Object {
+          "height": 40,
+          "width": undefined,
+        }
+      }
+    />
+  </th>
+</tr>
+`;

@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<tr
+  className="MuiTableRow-root"
+>
+  <th
+    aria-sort={null}
+    className="MuiTableCell-root makeStyles-root-1"
+    scope="row"
+  >
+    <div
+      className="MuiAvatar-root MuiAvatar-circle"
+    >
+      <img
+        alt="Mrs Nurdan Karaböcek"
+        className="MuiAvatar-img"
+        src="https://randomuser.me/api/portraits/thumb/women/9.jpg"
+      />
+    </div>
+    Mrs Nurdan Karaböcek
+  </th>
+  <th
+    aria-sort={null}
+    className="MuiTableCell-root MuiTableCell-alignLeft"
+  >
+    Rize
+  </th>
+  <th
+    aria-sort={null}
+    className="MuiTableCell-root MuiTableCell-alignLeft"
+  >
+    Hatay
+  </th>
+  <th
+    aria-sort={null}
+    className="MuiTableCell-root MuiTableCell-alignLeft"
+  >
+    nurdan.karabocek@example.com
+  </th>
+</tr>
+`;

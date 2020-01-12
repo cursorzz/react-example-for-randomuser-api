@@ -5,6 +5,7 @@
     "start": "react-static start",
     "stage": "react-static build --staging",
     "build": "react-static build",
+    "test": "jest test",
     "analyze": "react-static build --analyze",
     "serve": "serve dist -p 3000"
   },
@@ -24,7 +25,11 @@
     "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "axios-mock-adapter": "^1.17.0",
     "babel-eslint": "^10.0.2",
+    "babel-jest": "^24.9.0",
     "eslint": "^6.1.0",
     "eslint-config-react-app": "^5.0.1",
     "eslint-config-react-tools": "^1.1.7",
@@ -32,6 +37,9 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.3",
+    "jest": "^24.9.0",
+    "react-test-renderer": "^16.12.0",
+    "redux-mock-store": "^1.5.4",
     "serve": "^11.1.0"
   }
 }
