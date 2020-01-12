@@ -6,6 +6,10 @@ execute `npm install`
 
 execute `npm run start`
 
+### To Test
+
+execute `npm test`
+
 ### Current Features
 Main function is located in file `src/pages/index.js`
 
